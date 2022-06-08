@@ -13,11 +13,12 @@ Website Link: <https://sites.google.com/view/mechanicalintelligence>
 ### Install Code
 
 To setup the package, go to the directory where you plan to install the code and type:
-   git clone https://github.com/apr600/mechanical-intelligence.git
+
+    git clone https://github.com/apr600/mechanical-intelligence.git
 
 Go to file directory:
 
-   cd mechanical-intelligence
+    cd mechanical-intelligence
 
 ### Setup Environment
 
@@ -27,15 +28,15 @@ Set up python environment (we recommend using virtualenv), but use whatever comp
 
 Create folder for virtual environment:
 
-` virtualenv cbf-learning`
+    virtualenv cbf-learning
 
 Activate virtual environment:
 
-` source cbf-learning/bin/activate`
+    source cbf-learning/bin/activate
 
 Finally, install the dependencies. **Note: Regardless of which environment manager you choose, this step must be completed to create environemnt. **
 
-` pip install -r requirements.txt `
+    pip install -r requirements.txt
 
 ### Get Data for Analysis (Optional)
 For those who want to look at the data/models that were learned in this works' examples, you can download the dataset from the zenodo link: __________. Data should be extracted into the `data/` folder in the package. Note that the data files are large, so ensure that there is enough space on your computer before loading it in.
