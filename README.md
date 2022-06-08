@@ -14,17 +14,17 @@ Website Link: <https://sites.google.com/view/mechanicalintelligence>
 
 To setup the package, go to the directory where you plan to install the code and type:
 
-` git clone https://github.com/apr600/mechanical-intelligence.git `
+   git clone https://github.com/apr600/mechanical-intelligence.git
 
 Go to file directory:
 
-` cd mechanical-intelligence `
+   cd mechanical-intelligence
 
 ### Setup Environment
 
 Set up python environment (we recommend using virtualenv), but use whatever compatible environment manager that you have with Python3.
 
-` pip install virtualenv `
+    pip install virtualenv
 
 Create folder for virtual environment:
 
