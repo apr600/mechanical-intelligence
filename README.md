@@ -13,7 +13,6 @@ Website Link: <https://sites.google.com/view/mechanicalintelligence>
 ### Install Code
 
 To setup the package, go to the directory where you plan to install the code and type:
-
    git clone https://github.com/apr600/mechanical-intelligence.git
 
 Go to file directory:
