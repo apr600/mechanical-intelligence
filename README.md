@@ -33,13 +33,23 @@ Create folder for virtual environment:
 Activate virtual environment:
 
     source cbf-learning/bin/activate
+### Setup Dependencies
 
-Finally, install the dependencies. **Note: Regardless of which environment manager you choose, this step must be completed to create environemnt. **
+Finally, install the dependencies. *Regardless of which environment manager you choose, this step must be completed to create environemnt.*
 
     pip install -r requirements.txt
 
+Package Requirements:
+- Python
+- Numpy
+- Scipy
+- Matplotlib
+- Pytorch (Here, we install pytorch version that uses the GPU with Cuda >11.3. If you need to install a different version (to use CPU or for cuda dependencies, please adjust accordingly.)
+- Pybullet (for RGB/Grayscale Franka examples)
+- Seaborn (optional, for plotting)
+
 ### Get Data for Analysis (Optional)
-For those who want to look at the data/models that were learned in this works' examples, you can download the dataset from the zenodo link: __________. Data should be extracted into the `data/` folder in the package. Note that the data files are large, so ensure that there is enough space on your computer before loading it in.
+For those who want to look at the data/models in this works' examples to generate plots, you can download the dataset from the zenodo link: __________. Data should be extracted into the `data/` folder in the package. Note that the data files are large, so ensure that there is enough space on your computer before loading it in.
 
 ## Getting Started
 
