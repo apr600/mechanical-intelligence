@@ -47,7 +47,10 @@ env = FrankaEnv(render=False, ts=timeStep,offset=offset)
 
 ### Move robot to starting pose
 # xinit = [npr.uniform(lim[0],lim[1]), npr.uniform(lim[0],lim[1])]
-xinit =  [-0.7815724015256085, 0.7432973423368283] 
+# xinit =  [-0.7815724015256085, 0.7432973423368283] 
+Xinit = np.loadtxt('random_IC.txt')
+xinit =  Xinit[1]
+
 env0 = ws_conversion(xinit, robot_lim, tray_lim)
 cam_y = 0.3
 r0 = [env0[0], cam_y, env0[1]]
