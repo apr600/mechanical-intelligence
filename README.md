@@ -28,11 +28,11 @@ Set up python environment (we recommend using virtualenv), but use whatever comp
 
 Create folder for virtual environment:
 
-    virtualenv cbf-learning
+    virtualenv sensory-learning
 
 Activate virtual environment:
 
-    source cbf-learning/bin/activate
+    source sensory-learning/bin/activate
 ### Setup Dependencies
 
 Finally, install the dependencies. *Regardless of which environment manager you choose, this step must be completed to create environemnt.*
@@ -49,7 +49,7 @@ Package Requirements:
 - Seaborn (optional, for plotting)
 
 ### Get Data for Analysis (Optional)
-For those who want to look at the data/models in this works' examples to generate plots, you can download the dataset from the zenodo link: __________. Data should be extracted into the `data/` folder in the package. Note that the data files are large, so ensure that there is enough space on your computer before loading it in.
+For those who want to look at the data/models in this works' examples to generate plots, you can download the dataset from the zenodo link: __________. Data should be extracted into the `data/` folder in the package. Note that the data files are large, so we recommend loading it onto an external drive. Otherwise, ensure that there is enough space on your computer before loading it in.
 
 ## Getting Started
 
