@@ -40,7 +40,7 @@ Finally, install the dependencies. *Regardless of which environment manager you 
     pip install -r requirements.txt
 
 Package Requirements:
-- Python
+- Python>=3.8
 - Numpy
 - Scipy
 - Matplotlib
@@ -55,11 +55,11 @@ For those who want to look at the data/models in this works' examples to generat
 
 The package contains code for 3 different examples.
 
-The `electrosensing` folder contains code for the electrolocation example. It contains a jupyter notebook for the data analysis and the algorithm code for the example is located in the `src` folder inside.
+The `electrosense` folder contains code for the electrolocation example. It contains a jupyter notebook for the data analysis and the algorithm code for the example is located in the `src` folder inside.
 
-The `grayscale_sim` folder contains example code for the Franka robot with a grayscale camera at the end effector with two objects (a cube and a sphere) in the environment in the pybullet simulator.
+The `grayscale` folder contains example code for the Franka robot with a grayscale camera at the end effector with two objects (a cube and a sphere) in the environment in the pybullet simulator.
 
-The `rgb_sim` folder contains example code for the Franka robot with a RGB camera at the end effector with a rubber duck in the environment in the pybullet simulator.
+The `rgb` folder contains example code for the Franka robot with a RGB camera at the end effector with a rubber duck in the environment in the pybullet simulator.
 
 ### Final Notes
 
