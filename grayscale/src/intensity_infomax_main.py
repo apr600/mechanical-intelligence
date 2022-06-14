@@ -29,6 +29,7 @@ torch.manual_seed(0)
 # Set up vars for saving
 save = False
 dir_path = os.getcwd() + "/results/infomax/"
+if not os.path.exists(dir_path): os.makedirs(dir_path)
 print(dir_path)
 
 

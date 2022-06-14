@@ -37,6 +37,7 @@ class Robot():
         x, y = np.meshgrid(np.linspace(self.lim[0],self.lim[1],numpts), np.linspace(self.lim[0],self.lim[1],numpts))
         samples = np.c_[x.ravel(), y.ravel()]
         data = self.target_dist.pdf(samples)
+        print("Close Plot to continue running algorithm")
         plt.contourf(x,y, np.reshape(data, (numpts, numpts)))
         plt.show()
         

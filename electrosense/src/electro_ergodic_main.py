@@ -20,6 +20,7 @@ from vae_buffer import ReplayBuffer
 # Set up vars for saving
 save = False
 dir_path = os.getcwd() + "/results/ergodic/"
+if not os.path.exists(dir_path): os.makedirs(dir_path)
 print(dir_path)
 # Set up Environment
 lim = [-1.,1.]
@@ -57,9 +58,7 @@ for env_num in range(num_env):
     model.init = False
     for i in range(num_steps):
         # Run Klerg Optimization
-        # state, action = robot.step() # for entropy sampling (and unif1) --> uses default values
         state, action = robot.step(num_target_samples= 100, num_traj_samples=num_steps, R=0.01, alpha=1e-3)
-        # state = npr.uniform(-1,1,2) # Random sampling over workspace
         path.append(state)
         actions.append(action)
         traj = np.array(path)
