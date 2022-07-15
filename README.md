@@ -48,7 +48,7 @@ Package Requirements:
 
 
 ## Getting Started
-
+### Run Example Code
 The package contains code for 3 different examples.
 
 The `electrosense` folder contains code for the electrolocation example. It contains a jupyter notebook for the data analysis and the algorithm code for the example is located in the `src` folder inside.
