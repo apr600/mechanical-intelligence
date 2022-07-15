@@ -68,25 +68,13 @@ Once the `data/` directory is created, datasets can be downloaded into the direc
 
 For the RGB and Electrosensory examples, download the `electrosense.zip` and `rgb.zip` zip files from the Zenodo DOI: <https://doi.org/10.5281/zenodo.6653162>  and extract the directories into the `data/` directory. 
 
-For the grayscale camera example, first create a directory inside the `data/` directory: 
 
-    cd data
-    mkdir grayscale
-    
-For the grayscale method comparison, download the `grayscale_methodcomp.zip` zip file from the Zenodo DOI: <https://doi.org/10.5281/zenodo.6653162>  and extract the directories into the `grayscale/` directory.
-
-For the ablation studies, first set up the directory structure: 
-
-    cd grayscale
-    mkdir klerg_ablation
-    
-To get the datasets for the ablation comparisons, download the `target_dist_samples.zip` and `time_horizon.zip` zip files from the Zenodo DOI: <https://doi.org/10.5281/zenodo.6653166>  and extract the directories into the `klerg_ablation/` directory.
 
 ### Final Notes
 
 #### References
 
-[^1] Nature Citation
+[^1] Prabhakar, A., Murphey, T. Mechanical intelligence for learning embodied sensor-object relationships. Nat Commun 13, 4108 (2022). https://doi.org/10.1038/s41467-022-31795-2
 
 #### Contact
 
