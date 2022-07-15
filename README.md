@@ -68,7 +68,12 @@ Once the `data/` directory is created, datasets can be downloaded into the direc
 
 For the RGB and Electrosensory examples, download the `electrosense.zip` and `rgb.zip` zip files from the Zenodo DOI: <https://doi.org/10.5281/zenodo.6653162>  and extract the directories into the `data/` directory. 
 
+For the grayscale camera example, first create a directory inside the `data/` directory: 
 
+    cd data
+    mkdir grayscale
+    
+For the grayscale method comparison, download the `grayscale_methodcomp.zip` zip file from the Zenodo DOI: <https://doi.org/10.5281/zenodo.6653166>  and extract the directories into the `grayscale/` directory.
 
 ### Final Notes
 
