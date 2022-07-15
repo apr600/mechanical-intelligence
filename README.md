@@ -4,9 +4,7 @@
 
 This package contains the algorithm from "Mechanical Intelligence for Learning Embodied Sensor-Object Relationships" published in Nature Communications [^1]. In this paper, we develop an active learning method that enables robots to efficiently collect data for learning a predictive sensor model, called a generative model, without requiring domain knowledge, human input, or previously existing data. This approach drives exploration to information-rich regions based on data-driven sensor characteristics rather than a predefined sensor model. We demonstrate the approach for both cases of near-field sensors (electrolocation) and far-field sensors (grayscale and RBG cameras).
 
-Paper Link: _____________
-
-Website Link: <https://sites.google.com/view/mechanicalintelligence>
+Paper Link: https://rdcu.be/cRIOq
 
 ## Installation
 
@@ -48,13 +46,6 @@ Package Requirements:
 - Pybullet (for RGB/Grayscale Franka examples)
 - Seaborn (optional, for plotting)
 
-### Get Data for Analysis (Optional)
-For those who want to look at the data/models in this works' examples to generate plots, you can download the dataset from the zenodo link: __________. Data should be extracted into a `data/` directory to be created in here by: 
-
-    mkdir data
-    
-Note that the data files are large, so we recommend only loading it onto an external drive. Otherwise, ensure that there is enough space on your computer before loading it in.
-
 
 ## Getting Started
 
@@ -65,6 +56,31 @@ The `electrosense` folder contains code for the electrolocation example. It cont
 The `grayscale` folder contains example code for the Franka robot with a grayscale camera at the end effector with two objects (a cube and a sphere) in the environment in the pybullet simulator.
 
 The `rgb` folder contains example code for the Franka robot with a RGB camera at the end effector with a rubber duck in the environment in the pybullet simulator.
+
+### Get Data for Analysis (Optional)
+For those who want to look at the data/models in this works' examples to generate plots, you can download the dataset from Zenodo as follows below. Data should be extracted into a `data/` directory to be created in here by: 
+
+    mkdir data
+    
+Note that the data files are large, so we recommend only loading it onto an external drive. Otherwise, ensure that there is enough space on your computer before loading it in.
+
+Once the `data/` directory is created, datasets can be downloaded into the directory with the following structure. 
+
+For the RGB and Electrosensory examples, download the `electrosense.zip` and `rgb.zip` zip files from the Zenodo DOI: <https://doi.org/10.5281/zenodo.6653162>  and extract the directories into the `data/` directory. 
+
+For the grayscale camera example, first create a directory inside the `data/` directory: 
+
+    cd data
+    mkdir grayscale
+    
+For the grayscale method comparison, download the `grayscale_methodcomp.zip` zip file from the Zenodo DOI: <https://doi.org/10.5281/zenodo.6653162>  and extract the directories into the `grayscale/` directory.
+
+For the ablation studies, first set up the directory structure: 
+
+    cd grayscale
+    mkdir klerg_ablation
+    
+To get the datasets for the ablation comparisons, download the `target_dist_samples.zip` and `time_horizon.zip` zip files from the Zenodo DOI: <https://doi.org/10.5281/zenodo.6653166>  and extract the directories into the `klerg_ablation/` directory.
 
 ### Final Notes
 
